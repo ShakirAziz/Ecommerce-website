@@ -63,3 +63,7 @@
   color: white;
   background-color: hsl(228, 39%, 23%);
 }
+
+.hamburger-icon {
+  display: none;
+}

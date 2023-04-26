@@ -1,6 +1,25 @@
 @media screen and (max-width: 1200px) {
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1110px) {
+  .main_navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 30px 20px;
+    justify-content: space-between;
+  }
+
+  .hamburger-icon {
+    display: grid;
+  }
+
+  .center_navbar {
+    display: none;
+  }
+
+  .side_button {
+    display: none;
+  }
 }
 @media screen and (max-width: 600px) {
 }
