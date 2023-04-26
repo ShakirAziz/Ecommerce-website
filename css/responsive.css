@@ -6,6 +6,7 @@
     width: 100%;
     align-items: center;
     padding: 30px 20px;
+    column-gap: 20px;
     justify-content: space-between;
   }
 
