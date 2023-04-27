@@ -9,47 +9,53 @@
   background-color: hsl(12, 88%, 59%);
 }
 
+
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
   background-color: hsl(0, 0%, 98%);
+  font-family: "Montserrat", sans-serif;
 }
 
-.main_navbar {
-  width: 100%;
+nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding: 30px 0;
-  position: sticky;
-  z-index: 1;
-  top: 0;
-  text-transform: capitalize;
+  background-color: hsl(0, 0%, 98%);
+  padding: 20px 20px;
   box-sizing: border-box;
 }
 
-.center_navbar {
+nav .nav-list {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
-.center_navbar li {
-  list-style-type: none;
+nav .nav-list .nav-items {
+  display: grid;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+  text-align: center;
 }
 
-.center_navbar li a {
+nav .nav-list .nav-items .nav-links {
   color: black;
-  text-decoration: none;
+  font-weight: bold;
 }
 
-.center_navbar li a:hover {
-  text-decoration: underline;
+nav .nav-list .nav-items .nav-links:hover {
   color: hsl(12, 88%, 59%);
-  font-weight: bolder;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
-.btn {
+nav .btn {
   background-color: hsl(12, 88%, 59%);
   color: white;
   padding: 10px 25px;
@@ -59,11 +65,41 @@
   text-decoration: none;
 }
 
-.btn:hover {
+nav .btn:hover {
   color: white;
   background-color: hsl(228, 39%, 23%);
 }
 
-.hamburger-icon {
+nav .navbar-toggler {
   display: none;
+  cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+  width: 40px;
+  height: 5px;
+  background-color: hsl(228, 39%, 23%);
+  border-radius: 23px;
+  transition: 0.4s;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ nav .nav-list {
+  transform: translateY(0);
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+  display: none;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+  transform: rotate(-45deg);
 }
