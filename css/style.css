@@ -24,7 +24,7 @@
 nav {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   background-color: hsl(0, 0%, 98%);
   padding: 20px 20px;
@@ -33,7 +33,7 @@ nav {
 
 nav .nav-list {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 nav .nav-list .nav-items {
@@ -53,7 +53,12 @@ nav .nav-list .nav-items .nav-links:hover {
   color: hsl(12, 88%, 59%);
   font-weight: 900;
   text-decoration: underline;
+  font-size: 17px;
 }
+
+/* nav-list-second{
+
+} */
 
 nav .btn {
   background-color: hsl(12, 88%, 59%);
@@ -88,6 +93,10 @@ input {
 }
 
 input:checked ~ nav .nav-list {
+  transform: translateY(0);
+}
+
+input:checked ~ nav .nav-list-second {
   transform: translateY(0);
 }
 
