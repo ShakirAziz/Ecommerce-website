@@ -38,6 +38,7 @@ nav {
 nav .nav-list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  text-transform: capitalize;
 }
 
 nav .nav-list .nav-items {
