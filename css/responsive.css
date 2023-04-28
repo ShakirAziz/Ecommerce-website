@@ -23,7 +23,7 @@
     position: absolute;
     background-color: hsl(0, 0%, 98%);
     width: 100%;
-    top: 70px;
+    top: 64px;
     left: 0;
     transform: translateY(-100%);
     z-index: -1;
@@ -31,6 +31,10 @@
     padding: 10px;
     row-gap: 20px;
     box-sizing: border-box;
+  }
+
+  .nav-list-second{
+    justify-items: start;
   }
 
   nav .btn {

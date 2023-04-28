@@ -9,7 +9,6 @@
   background-color: hsl(12, 88%, 59%);
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +18,11 @@
   text-decoration: none;
   background-color: hsl(0, 0%, 98%);
   font-family: "Montserrat", sans-serif;
+}
+
+.main_navbar {
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -56,9 +60,10 @@ nav .nav-list .nav-items .nav-links:hover {
   font-size: 17px;
 }
 
-/* nav-list-second{
-
-} */
+.nav-list-second {
+  display: grid;
+  justify-items: end;
+}
 
 nav .btn {
   background-color: hsl(12, 88%, 59%);
@@ -112,3 +117,4 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
   transform: rotate(-45deg);
 }
+
