@@ -310,3 +310,41 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 .paragraph-iteam-a p {
   color: hsl(227, 12%, 61%);
 }
+
+/* Section 5 CSS */
+.fourth_content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 80px 20px;
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+}
+
+.fourth-section-A h3 {
+  font-size: 26px;
+  font-weight: 900;
+  background-color: hsl(12, 88%, 59%);
+}
+
+.fourth-section-B {
+  background-color: hsl(12, 88%, 59%);
+}
+
+.fourth-section-B button {
+  background-color: white;
+  color: hsl(12, 88%, 59%);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 23px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.fourth-section-B button:hover {
+  color: white;
+  background-color: hsl(228, 39%, 23%);
+}
