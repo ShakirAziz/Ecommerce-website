@@ -69,6 +69,7 @@
     justify-items: center;
     align-items: center;
     text-align: center;
+    row-gap: 10px;
   }
 
   .content_section_one p {
