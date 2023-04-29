@@ -127,7 +127,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
   align-items: center;
   justify-items: center;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .content_section {
@@ -179,4 +179,71 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 .image-one {
   width: 570px;
   height: auto;
+}
+
+/* Section 3 CSS */
+.second_content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 30px;
+  grid-gap: 20px;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+
+.content_section_one {
+  width: 100%;
+}
+
+.content_section_one h3 {
+  color: hsl(228, 39%, 23%);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.content_section_one p {
+  color: hsl(227, 12%, 61%);
+}
+
+.content_section_second {
+  width: 100%;
+  display: grid;
+  row-gap: 20px;
+}
+
+.content_paragraph_one {
+  width: 100%;
+}
+
+.neasted-paragraph-one {
+  display: flex;
+  column-gap: 30px;
+}
+
+.iteam-one {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+}
+
+.iteam-two {
+  color: hsl(228, 39%, 23%);
+}
+.neasted-paragraph-two {
+  color: hsl(227, 12%, 61%);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.neasted-paragraph-two p {
+  padding-left: 94px;
 }

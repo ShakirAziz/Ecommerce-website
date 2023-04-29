@@ -57,6 +57,23 @@
   .content-paragraph p {
     width: 72%;
   }
+
+  /* Section 3 responsive */
+  .second_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content_section_one {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content_section_one p {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -130,9 +147,15 @@
     font-size: 18px;
     font-weight: 600;
   }
+
+  /* Section 3 responsive */
+  .content_section_one p {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 400px) {
+  /* Section 2 responsive */
   .main-heading {
     font-size: 14px;
     font-weight: 500;
