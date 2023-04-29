@@ -75,6 +75,12 @@
   .content_section_one p {
     width: 50%;
   }
+
+  /* Section 4 responsive */
+  .third_section-B {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 80px;
+  }
 }
 
 @media screen and (max-width: 600px) {
