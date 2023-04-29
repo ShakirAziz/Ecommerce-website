@@ -321,6 +321,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
   box-sizing: border-box;
   padding: 80px 20px;
   color: white;
+  row-gap: 30px;
   background-color: hsl(12, 88%, 59%);
 }
 

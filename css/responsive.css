@@ -159,6 +159,12 @@
   .content_section_one p {
     width: 90%;
   }
+
+  /* Section 5 responsive */
+  .fourth_content {
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media screen and (max-width: 400px) {
