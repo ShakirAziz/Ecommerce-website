@@ -24,6 +24,7 @@
 .main_navbar {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav {
@@ -288,7 +289,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 
 .image-iteam-a {
   position: absolute;
-
   width: 90px;
   height: auto;
   top: -50px;
