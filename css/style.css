@@ -20,6 +20,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/* Section 1 CSS */
 .main_navbar {
   position: sticky;
   top: 0;
@@ -119,3 +120,63 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
   transform: rotate(-45deg);
 }
 
+/* Section 2 CSS */
+.main_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.content_section {
+  display: grid;
+  row-gap: 30px;
+  justify-items: center;
+}
+
+.main-heading {
+  display: grid;
+  justify-items: end;
+  font-size: 24px;
+  font-weight: 900;
+  color: hsl(228, 39%, 23%);
+}
+.main-heading h1 {
+  width: 75%;
+}
+
+.content-paragraph {
+  display: grid;
+  justify-items: center;
+  color: hsl(227, 12%, 61%);
+}
+
+.content-paragraph p {
+  width: 50%;
+}
+
+.content-button button {
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 23px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.content-button button:hover {
+  color: white;
+  background-color: hsl(228, 39%, 23%);
+}
+
+.image_section {
+  width: 100%;
+}
+
+.image-one {
+  width: 570px;
+  height: auto;
+}
