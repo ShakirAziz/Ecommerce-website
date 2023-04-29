@@ -349,3 +349,78 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
   color: white;
   background-color: hsl(228, 39%, 23%);
 }
+
+/* Section 6 CSS */
+.footer_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 20px;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-section-A {
+  display: grid;
+}
+
+.footer-iteam-one {
+  grid-row: 1/11;
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-iteam-one img {
+  z-index: 1;
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-iteam-second {
+  grid-template-columns: repeat(5, 1fr);
+  background-color: hsl(233, 12%, 13%);
+}
+.footer-iteam-second img {
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-list {
+  display: grid;
+  row-gap: 5px;
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-iteams {
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-links {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-links:hover {
+  font-size: 17px;
+  color: hsl(12, 88%, 59%);
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.footer-section-D {
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-endind {
+  background-color: hsl(233, 12%, 13%);
+  color: white;
+  text-transform: capitalize;
+}
+
+.input-bar {
+  background-color: aqua;
+}
+
+.footer-second-list {
+  background-color: hsl(233, 12%, 13%);
+}
